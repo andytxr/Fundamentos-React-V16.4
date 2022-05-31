@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Hi from './components/Hi';
+
 ReactDOM.render(
 
-  <h1>React</h1>
+  <div>
+    <Hi type='Bom dia' name="Deco"/>
+  </div>
 
 , document.getElementById('root'));
 
